@@ -57,6 +57,26 @@ table {
 
 
 
+h1 {
+    color: #002432;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    color: #002432;
+    font-size: 26px;
+    font-weight: 300; 
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -137,6 +157,41 @@ a:hover {
 
 
 .block_2 {
+}
 
+.block_2 img {
+    max-width: 100%;
+    width: auto;
+    filter: grayscale(100%);
+}
+
+.block_2 img:hover {
+    filter: none;
+}
+
+.info {
+    margin: 4rem;
+}
+
+.info h1 {
+    padding: 1rem 0rem;
+}
+
+
+
+
+
+
+.block_3 {
+    overflow: hidden;
+}
+
+.block_3 img {
+    height: 36rem;
+    filter: grayscale(100%);
+}
+
+.block_3 img:hover {
+    filter: none;
 }
 
