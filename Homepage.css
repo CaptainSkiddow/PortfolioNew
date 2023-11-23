@@ -156,8 +156,6 @@ a:hover {
 
 
 
-.block_2 {
-}
 
 .block_2 img {
     max-width: 100%;
@@ -187,7 +185,7 @@ a:hover {
 }
 
 .block_3 img {
-    height: 36rem;
+    height: 37rem;
     filter: grayscale(100%);
 }
 
