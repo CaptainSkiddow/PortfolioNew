@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+h1 {
+    color: #002432;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    color: #002432;
+    font-size: 26px;
+    font-weight: 300; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_landing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.block_1 {
+    background-color: #002432;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+a:link {
+    color: #D8D8D8;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #D8D8D8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20rem 2rem;
+}
+
+.title h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 54px;
+    padding: 1rem;
+}
+
+.title p {
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block_2 img {
+    max-width: 100%;
+    width: auto;
+    filter: grayscale(100%);
+}
+
+.block_2 img:hover {
+    filter: none;
+}
+
+.info {
+    margin: 4rem;
+}
+
+.info h1 {
+    padding: 1rem 0rem;
+}
+
+
+
+
+
+
+.block_3 {
+    overflow: hidden;
+}
+
+.block_3 img {
+    height: 37rem;
+    filter: grayscale(100%);
+}
+
+.block_3 img:hover {
+    filter: none;
+}
+
