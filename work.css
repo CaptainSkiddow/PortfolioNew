@@ -78,6 +78,10 @@ p {
     padding: 5rem;
 }
 
+.header h1{
+    padding: 2rem;
+}
+
 .galery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -92,5 +96,4 @@ p {
     width: 100%;
     padding-bottom: 10rem;
     padding: 1rem;
-    margin: 3px;
 }
