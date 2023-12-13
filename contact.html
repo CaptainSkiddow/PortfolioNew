@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="contact.js"></script>
 </head>
+
 <body>
-    <div class=contactContainer">
+    <div class="contactContainer">
         <div>
             <h1>
                 Contact
@@ -19,13 +23,16 @@
                 I will try to answer as fast a possible.
             </p>
         </div>
-        <div>
-            
+        <div class="form">
+            <label for="name">Name:</label>
+
+            <input type="text" id="name" name="name" minlength="2" maxlength="24" size="10" />
         </div>
         <div>
-            
+
         </div>
     </div>
-    
+
 </body>
+
 </html>
