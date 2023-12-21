@@ -161,6 +161,14 @@ p {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+.containerInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 8rem;
+}
+
 .name {
 	color: black;
 }
@@ -170,6 +178,7 @@ p {
 }
 
 input[type=text],
+input[type=email],
 select {
 	width: 100%;
 	padding: 12px 20px;
@@ -183,4 +192,9 @@ select {
 label[for=name] {
 	color: white;
 	font-size: 24px;
+}
+
+#question {
+	height: 10rem;
+	text-align: start;
 }
