@@ -174,7 +174,11 @@ p {
 }
 
 .form {
-	margin: 2rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #b2aa8e;
 }
 
 input[type=text],
