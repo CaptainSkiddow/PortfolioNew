@@ -154,10 +154,6 @@ a:hover {
 
 
 
-img {
-    cursor: pointer;
-}
-
 .block_2 img {
     max-width: 100%;
     width: auto;
@@ -166,7 +162,14 @@ img {
 
 .block_2 img:hover {
     filter: none;
+    transition: 0.5s ease;
 }
+
+.profilePicture:hover {
+    transform: translateZ(12px);
+}
+
+
 
 .info {
     margin: 4rem;
@@ -175,6 +178,7 @@ img {
 .info h1 {
     padding: 1rem 0rem;
 }
+
 
 
 
@@ -192,5 +196,6 @@ img {
 
 .block_3 img:hover {
     filter: none;
+    transition: 0.5s ease;
 }
 
