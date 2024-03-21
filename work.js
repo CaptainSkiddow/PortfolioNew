@@ -4,16 +4,13 @@ function welcome() {
 
 welcome();
 
-let user_email = "dekkerrens@outlook.com"
-
-
 $(document).ready(function () {
     $('#test').click(function () {
         $("#test").hide();
     });
 });
 
-$(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
+$(document).ready(function () { $("img").click(function () { this.requestFullscreen() }) });
 
 
 
